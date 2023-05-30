@@ -1,0 +1,17 @@
+# OPENAI CONFIG
+open_api:
+    key:
+    model: gpt-3.5-turbo
+    temperature: 0.6
+    max_tokens: 2048
+
+# PROXY CONFIG
+proxy_addr:
+    ip: 127.0.0.1
+    port: 7890
+
+# R0BOT CONFIG
+robot_info:
+    admin:
+        -
+    prologue: Hi，初次见面，我叫【%s】。输入"/cmd help"可以查看更多命令哦！
